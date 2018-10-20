@@ -1,0 +1,130 @@
+html, body {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+}
+
+
+#title h3 {display:inline; 
+		   color:#595959; 
+		   padding-left:10px;
+			 font-size: 26px;
+}
+.content-header{background-color:#4dd2ff;}
+
+.textInput{
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+}
+.textInputLong{
+	width: 800px;
+	height: 30px;
+	font-size: 20px;
+}
+.wrapper_total{
+         width:1300px;
+         margin: 0 auto;
+         height:auto;
+		justify-content: space-between;
+         flex-direction: column;
+         display: flex;
+         /*overflow-y: scroll;*/
+         overflow-x: hidden;
+         height: 75vh;
+}
+
+.labelP {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-size: 20px;
+  color: #00ace6;
+}
+#category{
+	width: 200px;
+}
+#cause{
+	width:500px;
+}
+.labelBig {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-size: 22px;
+  color: #4cc4ed;
+}
+.labelSmall{
+	padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-size: 16px;
+  color: #00ace6;
+}
+select {
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+				color: #4d4d4d;
+				width: 100px;
+}
+.sel{
+	position: relative;
+      margin: -20px 0px 24px;
+}
+
+
+/*for drop down list*/
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.cover-button {
+	-moz-box-shadow: 0px 0px 0px 2px #00ace6;
+	-webkit-box-shadow: 0px 0px 0px 2px #00ace6;
+	box-shadow: 0px 0px 0px 2px #00ace6;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #4cc4ed), color-stop(1, #00ace6));
+	background:-moz-linear-gradient(top, #4cc4ed 5%, #00ace6 100%);
+	background:-webkit-linear-gradient(top, #4cc4ed 5%, #00ace6 100%);
+	background:-o-linear-gradient(top, #4cc4ed 5%,  #00ace6 100%);
+	background:-ms-linear-gradient(top, #4cc4ed 5%, #00ace6 100%);
+	background:linear-gradient(to bottom, #4cc4ed 5%, #00ace6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4cc4ed', endColorstr='#00ace6',GradientType=0);
+	background-color:#4cc4ed;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #f0b78f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:26px;
+	padding:5px 20px 5px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #0089b8;
+}
+.cover-button2{
+	position: absolute;
+	right: 20%;
+	margin: 20px 20px 20px 20px ;
+}
+	
+
+.cover-button2:active {
+	position: absolute;
+	right: 20.3%;
+}
+.bounding-rect {
+  stroke: #D2B48C;
+  stroke-width: 20;
+  fill: transparent;
+}
